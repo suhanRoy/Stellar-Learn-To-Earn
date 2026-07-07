@@ -54,28 +54,39 @@ We solve this by introducing a decentralized, high-stakes gamified learning envi
 
 ## 📸 Platform Previews
 
+### 🌟 Landing Page
+*The sleek, modern landing page introduces users to the Stellar Learn-To-Earn platform.*
 <div align="center">
   <img src="demo-img/hero-desktop.png" alt="Hero Dashboard" width="800"/>
 </div>
 
 ### 📚 Course Selection & Learning
+*Users can browse available courses, check difficulty levels, and see the exact rewards they will earn.*
 <div align="center">
   <img src="demo-img/courses.png" alt="Course Selection" width="800"/>
 </div>
 
-### 📱 Responsive Design
+### 📱 Fully Mobile Responsive
+*The UI is built with Tailwind CSS to ensure a seamless learning experience across all mobile devices.*
 <div align="center">
   <img src="demo-img/mobile-1.png" alt="Mobile Dashboard" width="300"/>
   <img src="demo-img/mobile-2.png" alt="Mobile Course View" width="300"/>
 </div>
 
 ### 🏆 Progress, Rewards & Celebrations
+*Upon completing a course, a smart contract interaction mints reward tokens to the user's Freighter wallet, triggering a beautiful success animation.*
 <div align="center">
   <img src="demo-img/personlaised-dashbaord.png" alt="Personalized Dashboard" width="400"/>
   <img src="demo-img/winning-animation.png" alt="Reward Unlocked Animation" width="400"/>
 </div>
 
-### 🧪 Tests & Network Verification
+### 🧪 Automated CI/CD & Network Verification
+*The project implements a strict CI/CD pipeline via GitHub Actions. It automatically verifies that all Rust Smart Contracts compile correctly, pass their test suite, and the Next.js frontend builds successfully before any code merges.*
+<div align="center">
+  <img src="demo-img/CI-CD-pipeline.png" alt="CI/CD Pipeline Verification" width="800"/><br><br>
+</div>
+
+*Local Rust tests guarantee robust smart contract logic (e.g. course creation, duplicate completion constraints, and reward token minting). All transactions are completely verifiable on the Stellar Testnet Explorer.*
 <div align="center">
   <img src="demo-img/3-successsfull-test.png" alt="Local Contract Tests Passing" width="400"/>
   <img src="demo-img/stellar-network-verfication.png" alt="Network Verification" width="400"/>
