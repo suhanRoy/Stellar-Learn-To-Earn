@@ -8,7 +8,7 @@
 [![Stellar](https://img.shields.io/badge/Network-Stellar_Testnet-black)](https://stellar.org/)
 [![Soroban](https://img.shields.io/badge/Smart_Contracts-Soroban-orange)](https://soroban.stellar.org/)
 
-![Hero Dashboard](./demo-img/hero-dashboard.png)
+![Hero Dashboard](./demo-img/hero-desktop.png)
 
 *An immersive and highly-gamified educational experience where users learn about the Stellar ecosystem, pass quizzes, and earn on-chain rewards.*
 
@@ -60,29 +60,43 @@ We solve this by introducing a decentralized, high-stakes gamified learning envi
 <summary><b>Landing Page</b></summary>
 <br>
 
-![Desktop Landing](./demo-img/landing.png)
+![Desktop Landing](./demo-img/hero-desktop.png)
 </details>
 
 <details open>
-<summary><b>Dashboard & Treasury</b></summary>
+<summary><b>Personalized Dashboard & Treasury</b></summary>
 <br>
 
-![Desktop Dashboard](./demo-img/dashboard.png)
+![Desktop Dashboard](./demo-img/personlaised-dashbaord.png)
+</details>
+
+<details open>
+<summary><b>Interactive Courses</b></summary>
+<br>
+
+![Courses](./demo-img/courses.png)
+</details>
+
+<details open>
+<summary><b>Winning Animation & Rewards</b></summary>
+<br>
+
+![Winning Animation](./demo-img/winning-animation.png)
 </details>
 
 <details open>
 <summary><b>Global Network Activity</b></summary>
 <br>
 
-![Activity Feed](./demo-img/activity.png)
+![Activity Feed](./demo-img/stellar-network-verfication.png)
 </details>
 
 ### Mobile Responsiveness
 *The entire application is completely mobile responsive, ensuring learners can complete courses and claim rewards from any device seamlessly.*
 
 <div style="display: flex; gap: 10px;">
-  <img src="./demo-img/mobile-ui-1.png" alt="Mobile Dashboard" width="48%">
-  <img src="./demo-img/mobile-ui-2.png" alt="Mobile Courses" width="48%">
+  <img src="./demo-img/mobile-1.png" alt="Mobile Dashboard" width="48%">
+  <img src="./demo-img/mobile-2.png" alt="Mobile Courses" width="48%">
 </div>
 
 ---
@@ -90,8 +104,8 @@ We solve this by introducing a decentralized, high-stakes gamified learning envi
 ## 🛡️ Smart Contract Architecture & Details
 
 ### Deployed Contracts & Credentials
-*   **Course Manager Contract ID**: `CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2M` *(Note: Replace with actual Testnet ID)*
-*   **Reward Token Contract ID**: `CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2T` *(Note: Replace with actual Testnet ID)*
+*   **Course Manager Contract ID**: `CAMD6YJOODWV7LN3IE44ILF4JMBH7BZKT7VHWHF6Z56GWFSGRNG645QT`
+*   **Reward Token Contract ID**: `CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN`
 *   **Stellar Network**: Testnet
 
 ### Smart Contract Flow
@@ -142,8 +156,8 @@ sequenceDiagram
 2. **Configure Environment Variables**:
    Create a `.env.local` file in the `frontend` root with your deployed contract IDs:
    ```env
-   NEXT_PUBLIC_COURSE_MANAGER_ID=your_course_contract_id
-   NEXT_PUBLIC_REWARD_TOKEN_ID=your_token_contract_id
+   NEXT_PUBLIC_COURSE_MANAGER_ID=CAMD6YJOODWV7LN3IE44ILF4JMBH7BZKT7VHWHF6Z56GWFSGRNG645QT
+   NEXT_PUBLIC_REWARD_TOKEN_ID=CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN
    ```
 
 3. **Install Frontend Dependencies**:
@@ -168,6 +182,6 @@ sequenceDiagram
 ---
 
 <div align="center">
-  <b>Developed with ⚔️ by Bapi Das</b><br>
-  <a href="https://github.com/bapidas777">GitHub Profile</a>
+  <b>Developed with ⚔️ by Suhan Roy</b><br>
+  <a href="https://github.com/suhanRoy">GitHub Profile</a>
 </div>
