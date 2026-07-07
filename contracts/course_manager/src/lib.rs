@@ -8,7 +8,7 @@ use soroban_sdk::{
 // Interface of the Reward Token to perform cross-contract calls
 mod token {
     soroban_sdk::contractimport!(
-        file = "../target/wasm32v1-none/release/reward_token.wasm"
+        file = "../target/wasm32-unknown-unknown/release/reward_token.wasm"
     );
 }
 
