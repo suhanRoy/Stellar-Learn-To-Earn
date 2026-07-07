@@ -52,51 +52,33 @@ We solve this by introducing a decentralized, high-stakes gamified learning envi
 
 ---
 
-## 📸 Interface Showcase
+## 📸 Platform Previews
 
-### Desktop Experience
+<div align="center">
+  <img src="demo-img/hero-desktop.png" alt="Hero Dashboard" width="800"/>
+</div>
 
-<details open>
-<summary><b>Landing Page</b></summary>
-<br>
+### 📚 Course Selection & Learning
+<div align="center">
+  <img src="demo-img/courses.png" alt="Course Selection" width="800"/>
+</div>
 
-![Desktop Landing](./demo-img/hero-desktop.png)
-</details>
+### 📱 Responsive Design
+<div align="center">
+  <img src="demo-img/mobile-1.png" alt="Mobile Dashboard" width="300"/>
+  <img src="demo-img/mobile-2.png" alt="Mobile Course View" width="300"/>
+</div>
 
-<details open>
-<summary><b>Personalized Dashboard & Treasury</b></summary>
-<br>
+### 🏆 Progress, Rewards & Celebrations
+<div align="center">
+  <img src="demo-img/personlaised-dashbaord.png" alt="Personalized Dashboard" width="400"/>
+  <img src="demo-img/winning-animation.png" alt="Reward Unlocked Animation" width="400"/>
+</div>
 
-![Desktop Dashboard](./demo-img/personlaised-dashbaord.png)
-</details>
-
-<details open>
-<summary><b>Interactive Courses</b></summary>
-<br>
-
-![Courses](./demo-img/courses.png)
-</details>
-
-<details open>
-<summary><b>Winning Animation & Rewards</b></summary>
-<br>
-
-![Winning Animation](./demo-img/winning-animation.png)
-</details>
-
-<details open>
-<summary><b>Global Network Activity</b></summary>
-<br>
-
-![Activity Feed](./demo-img/stellar-network-verfication.png)
-</details>
-
-### Mobile Responsiveness
-*The entire application is completely mobile responsive, ensuring learners can complete courses and claim rewards from any device seamlessly.*
-
-<div style="display: flex; gap: 10px;">
-  <img src="./demo-img/mobile-1.png" alt="Mobile Dashboard" width="48%">
-  <img src="./demo-img/mobile-2.png" alt="Mobile Courses" width="48%">
+### 🧪 Tests & Network Verification
+<div align="center">
+  <img src="demo-img/3-successsfull-test.png" alt="Local Contract Tests Passing" width="400"/>
+  <img src="demo-img/stellar-network-verfication.png" alt="Network Verification" width="400"/>
 </div>
 
 ---
@@ -107,10 +89,10 @@ We solve this by introducing a decentralized, high-stakes gamified learning envi
 *   **Course Manager Contract ID**: `CAMD6YJOODWV7LN3IE44ILF4JMBH7BZKT7VHWHF6Z56GWFSGRNG645QT`
 *   **Reward Token Contract ID**: `CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN`
 *   **Stellar Network**: Testnet
-*   **Example Transaction Hash**: `[Insert Real Transaction Hash Here]`
+*   **Example Transaction Hash**: `74baa4649727d8bd431f40d01ed7ab0d785a9e41ce48124f618de5fb6c104708`
 *   **Testnet Explorer Link (Course Manager)**: [Stellar Expert - Course Manager](https://stellar.expert/explorer/testnet/contract/CAMD6YJOODWV7LN3IE44ILF4JMBH7BZKT7VHWHF6Z56GWFSGRNG645QT)
 *   **Testnet Explorer Link (Reward Token)**: [Stellar Expert - Reward Token](https://stellar.expert/explorer/testnet/contract/CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN)
-*   **Testnet Explorer Link (Tx Hash)**: `https://stellar.expert/explorer/testnet/tx/[Insert_Hash_Here]`
+*   **Testnet Explorer Link (Tx Hash)**: [Stellar Expert - Transaction 74baa...](https://stellar.expert/explorer/testnet/tx/74baa4649727d8bd431f40d01ed7ab0d785a9e41ce48124f618de5fb6c104708)
 
 ### Smart Contract Flow
 ```mermaid
