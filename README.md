@@ -108,9 +108,9 @@ We solve this by introducing a decentralized, high-stakes gamified learning envi
 *   **Reward Token Contract ID**: `CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN`
 *   **Stellar Network**: Testnet
 *   **Example Transaction Hash**: `[Insert Real Transaction Hash Here]`
-*   **Testnet Explorer Link (Course Manager)**: `[Insert Stellar Expert Link Here]`
-*   **Testnet Explorer Link (Reward Token)**: `[Insert Stellar Expert Link Here]`
-*   **Testnet Explorer Link (Tx Hash)**: `[Insert Stellar Expert Link Here]`
+*   **Testnet Explorer Link (Course Manager)**: [Stellar Expert - Course Manager](https://stellar.expert/explorer/testnet/contract/CAMD6YJOODWV7LN3IE44ILF4JMBH7BZKT7VHWHF6Z56GWFSGRNG645QT)
+*   **Testnet Explorer Link (Reward Token)**: [Stellar Expert - Reward Token](https://stellar.expert/explorer/testnet/contract/CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN)
+*   **Testnet Explorer Link (Tx Hash)**: `https://stellar.expert/explorer/testnet/tx/[Insert_Hash_Here]`
 
 ### Smart Contract Flow
 ```mermaid
