@@ -19,7 +19,7 @@
 ## 📌 Submission Details & Quick Links
 
 *   **🌐 Live Production Link**: [Stellar Learn-To-Earn (Vercel)](https://stellar-learn-to-earn.vercel.app/)
-*   **📹 Demo Video Presentation**: [Insert Video Link Here]
+*   **📹 Demo Video Presentation**: [Watch on YouTube](https://youtu.com/s_l_eZL1a_Y)
 *   **💻 GitHub Repository**: [suhanRoy/Stellar-Learn-To-Earn](https://github.com/suhanRoy/Stellar-Learn-To-Earn)
 
 ---
