@@ -18,9 +18,9 @@
 
 ## 📌 Submission Details & Quick Links
 
-*   **🌐 Live Production Link**: [Insert Live Link Here]
+*   **🌐 Live Production Link**: [Stellar Learn-To-Earn (Vercel)](https://stellar-learn-to-earn.vercel.app/)
 *   **📹 Demo Video Presentation**: [Insert Video Link Here]
-*   **💻 GitHub Repository**: [Insert GitHub Repo Link Here]
+*   **💻 GitHub Repository**: [suhanRoy/Stellar-Learn-To-Earn](https://github.com/suhanRoy/Stellar-Learn-To-Earn)
 
 ---
 
@@ -146,7 +146,7 @@ sequenceDiagram
 
 1. **Clone the Repository**:
    ```bash
-   git clone [Insert GitHub Repo Link Here]
+   git clone https://github.com/suhanRoy/Stellar-Learn-To-Earn.git
    cd Stellar-Learn-To-Earn
    ```
 
