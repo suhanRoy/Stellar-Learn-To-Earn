@@ -134,6 +134,30 @@ sequenceDiagram
 
 ---
 
+## 📁 Project Structure
+The repository is structured as a monorepo, cleanly separating the Rust smart contracts from the Next.js frontend application:
+
+```text
+Stellar-Learn-To-Earn/
+├── .github/workflows/       # GitHub Actions CI/CD pipelines
+├── contracts/               # Soroban Smart Contracts (Rust)
+│   ├── course_manager/      # Main logic for course creation, quizzes, and verification
+│   └── reward_token/        # LRN Token minting and treasury management
+├── frontend/                # Next.js 15 Web Application
+│   ├── src/
+│   │   ├── __tests__/       # Vitest frontend unit tests
+│   │   ├── app/             # App Router pages and layouts
+│   │   ├── components/      # Reusable React components (UI & layout)
+│   │   ├── hooks/           # Custom React hooks
+│   │   ├── lib/             # Soroban integration and utility functions
+│   │   └── store/           # Zustand global state (multi-wallet management)
+├── demo-img/                # Architecture diagrams and UI screenshots
+├── deploy.sh                # Automated contract deployment script
+└── seed_courses.sh          # Script to pre-populate courses onto the testnet
+```
+
+---
+
 ## 💻 Local Installation & Getting Started
 
 ### 📋 Prerequisites
