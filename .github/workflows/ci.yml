@@ -20,7 +20,7 @@ jobs:
     - name: Run Contract Tests
       working-directory: ./contracts
       run: |
-        cargo build --target wasm32-unknown-unknown --release
+        cargo build -p reward_token --target wasm32-unknown-unknown --release
         cargo test
 
   build-frontend:
