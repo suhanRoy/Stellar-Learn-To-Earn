@@ -58,7 +58,7 @@ fn test_course_creation_already_exists() {
 }
 
 #[test]
-#[should_panic(expected = "Already completed")]
+#[should_panic(expected = "User already completed this course")]
 fn test_complete_course_twice() {
     let env = Env::default();
     env.mock_all_auths();
