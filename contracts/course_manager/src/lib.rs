@@ -5,7 +5,6 @@ use soroban_sdk::{
     contract, contractimpl, contracttype, symbol_short, Address, Env, Symbol,
 };
 
-// Interface of the Reward Token to perform cross-contract calls
 mod token {
     soroban_sdk::contractimport!(
         file = "../target/wasm32-unknown-unknown/release/reward_token.wasm"
@@ -20,8 +19,8 @@ pub struct CourseManager;
 pub enum DataKey {
     Admin,
     TokenContract,
-    Course(u32), // course_id -> reward_amount
-    Completion(Address, u32), // (user, course_id) -> bool
+    Course(u32),
+    Completion(Address, u32),
 }
 
 #[contractimpl]
@@ -62,7 +61,6 @@ impl CourseManager {
 
         env.storage().persistent().set(&completion_key, &true);
 
-        // Perform cross contract call
         let token_contract: Address = env.storage().instance().get(&DataKey::TokenContract).unwrap();
         let client = token::Client::new(&env, &token_contract);
         

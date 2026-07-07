@@ -4,8 +4,6 @@ import { rpc, TransactionBuilder, Networks, Keypair, Asset, Operation } from '@s
 const TESTNET_RPC = "https://soroban-testnet.stellar.org";
 const server = new rpc.Server(TESTNET_RPC);
 
-// In a real app, this MUST be an environment variable.
-// We use a hardcoded testnet key here for frictionless local testing.
 const TREASURY_SECRET = process.env.TREASURY_SECRET_KEY || "SDVFYRAUWFBZ5TNJNNNXROVQEW5V4B57ZETGH7TNDVGVVICTSU45ENDM";
 
 export async function POST(req: Request) {
