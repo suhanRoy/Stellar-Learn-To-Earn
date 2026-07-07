@@ -193,5 +193,5 @@ Since the frontend code lives in a subdirectory, simply follow these steps:
 
 <div align="center">
   <b>Developed with ⚔️ by Suhan Roy</b><br>
-  <a href="https://github.com/suhanRoy">GitHub Profile</a>
+  <a href="https://github.com/suhanRoy/Stellar-Learn-To-Earn">GitHub Repository</a> • <a href="https://github.com/suhanRoy">GitHub Profile</a>
 </div>

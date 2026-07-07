@@ -30,7 +30,7 @@ export default function Footer() {
             <h4 className="font-semibold text-gray-900 mb-4">Community</h4>
             <ul className="space-y-3 text-sm text-gray-600">
               <li>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors flex items-center gap-2">
+                <a href="https://github.com/suhanRoy/Stellar-Learn-To-Earn" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors flex items-center gap-2">
                   <Code size={16} /> GitHub
                 </a>
               </li>
