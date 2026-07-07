@@ -1,0 +1,7 @@
+node_modules/
+.next/
+contracts/target/
+.DS_Store
+dist/
+build/
+*.log
