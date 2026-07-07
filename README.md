@@ -167,6 +167,19 @@ sequenceDiagram
 
 ---
 
+## 🚀 Deploying to Vercel (Live Demo)
+This project is properly structured to deploy perfectly on Vercel. 
+Since the frontend code lives in a subdirectory, simply follow these steps:
+1. Go to [Vercel](https://vercel.com/) and click **Add New Project**.
+2. Import your GitHub repository.
+3. **CRITICAL**: Under the "Configure Project" section, click on **Root Directory** and select `frontend`.
+4. Open the **Environment Variables** section and add:
+   - `NEXT_PUBLIC_COURSE_MANAGER_ID` = `CAMD6YJOODWV7LN3IE44ILF4JMBH7BZKT7VHWHF6Z56GWFSGRNG645QT`
+   - `NEXT_PUBLIC_REWARD_TOKEN_ID` = `CBHVOYICX2KCRYLQ425PQCWVCUKATZI6MLDUV4CMJQVRVPPTA6U6NRWN`
+5. Click **Deploy**! Vercel will automatically detect Next.js and build your app successfully.
+
+---
+
 <div align="center">
   <b>Developed with ⚔️ by Suhan Roy</b><br>
   <a href="https://github.com/suhanRoy">GitHub Profile</a>
