@@ -2,9 +2,11 @@
 
 import { useAppStore } from "@/store";
 import { ExternalLink, Loader2, CheckCircle2, XCircle } from "lucide-react";
+import { useWallet } from "./WalletProvider";
 
 export function TransactionCenter() {
-  const transactions = useAppStore((state) => state.transactions);
+  const { address } = useWallet();
+  const transactions = useAppStore((state) => state.transactionsByWallet[address || ""] || []);
 
   if (transactions.length === 0) return null;
 
